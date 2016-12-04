@@ -61,6 +61,35 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 	color: white;
 }
 
+#site-navigation.main-small-navigation ul li a {
+	color:  #76b72a;
+}
+
+#site-navigation.main-small-navigation ul li a:hover {
+	color:  white;
+}
+
+#site-navigation.main-small-navigation ul li ul.sub-menu li a {
+	color: black;
+}
+
+#site-navigation.main-small-navigation ul li.current-menu-item a {
+	background-color: #76b72a;
+	color: white;
+}
+
+#site-navigation.main-small-navigation ul li.current-menu-item  ul.sub-menu a {
+	background-color: white;
+	color: black;
+}
+
+#site-navigation.main-small-navigation ul li ul.sub-menu li.current-menu-item {
+	text-decoration: underline;
+}
+
+
+
+
 .site-title {
 	font-size: 28px;
 	font-weight: bold;
