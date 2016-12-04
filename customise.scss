@@ -1,5 +1,5 @@
 /*
-Welcome to Custom CSS!
+Welcome to Custom CSS!.
 
 To learn how this works, see http://wp.me/PEmnE-Bt
 */
@@ -15,6 +15,10 @@ $vihreat-green: #76b72a;
   .main-navigation {
     margin-right: 220px;
   }
+}
+
+@media screen and (min-width: 561px) and (max-width: 767px) {
+  .header-wrap a.site-logo-link { display: inline-block; padding-top: 12px; }
 }
 
 .header-wrap { background-color: $vihreat-green; color: white; padding: 0; border: 0; }
