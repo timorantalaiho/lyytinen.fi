@@ -10,6 +10,8 @@ $vihreat-green: #76b72a;
 
 .site-title { font-size: 28px; font-weight: bold; text-transform: uppercase; }
 
+.main-navigation .menu-item a { color: white; }
+
 .main-navigation ul li.current-menu-item, .main-navigation ul li.current-menu-parent , .main-navigation ul li.current_page_ancestor {
   background-color: $vihreat-green;
   a { background-color: $vihreat-green; color: white; text-decoration: underline; }
@@ -29,11 +31,12 @@ $vihreat-green: #76b72a;
 
 .main-navigation ul ul.sub-menu a { background-color: $vihreat-green; color: white; }
 
-.menu-item a { color: white; }
-
 .main-navigation a:hover { background-color: $vihreat-green; color: white; }
 
+#site-navigation.main-small-navigation a { color: $vihreat-green; }
+
 #site-navigation.main-small-navigation ul li.menu-item {
+  &:hover > a { color: white; background-color: $vihreat-green; }
   a { color: $vihreat-green; &:hover { color: white; background-color: $vihreat-green; } }
   ul.sub-menu li {
     a { color: black; }
