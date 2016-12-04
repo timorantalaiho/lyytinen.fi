@@ -19,7 +19,11 @@ $vihreat-green: #76b72a;
     background-color: $vihreat-green; color: white; text-decoration: none;
     &:hover { color: black; }
   }
+
+  ul.sub-menu li.current-menu-item a { text-decoration: underline; }
 }
+
+.main-navigation ul li ul li.current-menu-item a { background-color: $vihreat-green; color: white; text-decoration: underline; }
 
 .main-navigation li.menu-item-has-children > a::after { background-color: $vihreat-green; color: white; }
 
