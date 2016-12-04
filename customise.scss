@@ -1,0 +1,40 @@
+/*
+Welcome to Custom CSS!
+
+To learn how this works, see http://wp.me/PEmnE-Bt
+*/
+
+$vihreat-green: #76b72a;
+
+.header-wrap { background-color: $vihreat-green; color: white; padding: 0; border: 0; }
+
+.site-title { font-size: 28px; font-weight: bold; text-transform: uppercase; }
+
+.main-navigation ul li.current-menu-item {
+  background-color: $vihreat-green;
+  a { background-color: $vihreat-green; color: white; text-decoration: underline; }
+  > a::after { color: white; }
+
+  ul.sub-menu a { background-color: $vihreat-green; color: white; text-decoration: none; }
+}
+
+.main-navigation li.menu-item-has-children > a::after { background-color: $vihreat-green; color: white; }
+
+.main-navigation ul ul.sub-menu a { background-color: $vihreat-green; color: white; }
+
+.menu-item a { color: white; }
+
+.main-navigation a:hover { background-color: $vihreat-green; color: white; }
+
+#site-navigation.main-small-navigation ul li {
+  a { color: $vihreat-green; &:hover { color: white; } }
+  ul.sub-menu li {
+    a { color: black; }
+    &.current-menu-item { text-decoration: underline }
+  }
+
+  &.current-menu-item a { background-color: $vihreat-green; color: white; }
+  &.current-menu-item ul.sub-menu a { background-color: white; color: black; }
+}
+
+
