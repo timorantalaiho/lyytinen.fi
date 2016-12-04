@@ -10,12 +10,14 @@ $vihreat-green: #76b72a;
 
 .site-title { font-size: 28px; font-weight: bold; text-transform: uppercase; }
 
-.main-navigation ul li.current-menu-item {
+.main-navigation ul li.current-menu-item, .main-navigation ul li.current-menu-parent , .main-navigation ul li.current_page_ancestor {
   background-color: $vihreat-green;
   a { background-color: $vihreat-green; color: white; text-decoration: underline; }
   > a::after { color: white; }
 
-  ul.sub-menu a { background-color: $vihreat-green; color: white; text-decoration: none; }
+  ul.sub-menu a {
+    background-color: $vihreat-green; color: white; text-decoration: none;
+  }
 }
 
 .main-navigation li.menu-item-has-children > a::after { background-color: $vihreat-green; color: white; }
@@ -33,7 +35,7 @@ $vihreat-green: #76b72a;
     &.current-menu-item { text-decoration: underline }
   }
 
-  &.current-menu-item a { background-color: $vihreat-green; color: white; }
+  &.current-menu-item a { background-color: $vihreat-green; color: white; text-decoration: underline; }
   &.current-menu-item ul.sub-menu a { background-color: white; color: black; }
 }
 
