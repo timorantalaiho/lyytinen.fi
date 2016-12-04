@@ -33,14 +33,19 @@ $vihreat-green: #76b72a;
 
 .main-navigation a:hover { background-color: $vihreat-green; color: white; }
 
-#site-navigation.main-small-navigation ul li {
-  a { color: $vihreat-green; &:hover { color: white; } }
+#site-navigation.main-small-navigation ul li.menu-item {
+  a { color: $vihreat-green; &:hover { color: white; background-color: $vihreat-green; } }
   ul.sub-menu li {
     a { color: black; }
-    &.current-menu-item { text-decoration: underline }
+    &.current-menu-item { a { text-decoration: underline } }
   }
 
-  &.current-menu-item a { background-color: $vihreat-green; color: white; text-decoration: underline; }
+  &.current-menu-item a, &.current_page_item a { background-color: $vihreat-green; color: white; text-decoration: underline;
+    ul.sub-menu li {
+      a { text-decoration: none; }
+      &.current-menu-item a { text-decoration: underline; }
+    }
+  }
   &.current-menu-item ul.sub-menu a { background-color: white; color: black; }
 }
 
