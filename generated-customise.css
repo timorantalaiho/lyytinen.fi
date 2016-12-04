@@ -1,9 +1,19 @@
 @charset "UTF-8";
 /*
-Welcome to Custom CSS!.
+Welcome to Custom CSS!
 
 To learn how this works, see http://wp.me/PEmnE-Bt
 */
+@media screen and (pointer: coarse) {
+  .menu-toggle, .main-navigation.toggled .nav-menu {
+    display: block;
+    top: 0; }
+
+  #site-navigation.main-navigation .menu-menu-container {
+    display: none; }
+
+  #site-navigation.main-navigation .menu-toggle {
+    top: 0; } }
 @media screen and (min-width: 768px) {
   .header-wrap a.site-logo-link {
     position: absolute;
@@ -17,6 +27,18 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 
   .main-navigation {
     margin-right: 220px; } }
+@media screen and (min-width: 768px) and (pointer: coarse) {
+  .header-wrap a.site-logo-link {
+    position: relative;
+    display: inline-block;
+    padding: 0; }
+    .header-wrap a.site-logo-link img {
+      padding-top: 3px; }
+  .header-wrap .site-title {
+    padding-top: 2px; }
+  .header-wrap .header-search-icon {
+    right: -10px;
+    padding-top: 10px; } }
 @media screen and (min-width: 561px) and (max-width: 767px) {
   .header-wrap a.site-logo-link {
     display: inline-block;
