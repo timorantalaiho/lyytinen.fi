@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/*
+Welcome to Custom CSS!
+
+To learn how this works, see http://wp.me/PEmnE-Bt
+*/
+.header-wrap {
+  background-color: #76b72a;
+  color: white;
+  padding: 0;
+  border: 0; }
+
+.site-title {
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.main-navigation .menu-item a {
+  color: white; }
+
+.main-navigation ul li.current-menu-item, .main-navigation ul li.current-menu-parent, .main-navigation ul li.current_page_ancestor {
+  background-color: #76b72a; }
+  .main-navigation ul li.current-menu-item a, .main-navigation ul li.current-menu-parent a, .main-navigation ul li.current_page_ancestor a {
+    background-color: #76b72a;
+    color: white;
+    text-decoration: underline; }
+  .main-navigation ul li.current-menu-item > a::after, .main-navigation ul li.current-menu-parent > a::after, .main-navigation ul li.current_page_ancestor > a::after {
+    color: white; }
+  .main-navigation ul li.current-menu-item ul.sub-menu a, .main-navigation ul li.current-menu-parent ul.sub-menu a, .main-navigation ul li.current_page_ancestor ul.sub-menu a {
+    background-color: #76b72a;
+    color: white;
+    text-decoration: none; }
+    .main-navigation ul li.current-menu-item ul.sub-menu a:hover, .main-navigation ul li.current-menu-parent ul.sub-menu a:hover, .main-navigation ul li.current_page_ancestor ul.sub-menu a:hover {
+      color: black; }
+  .main-navigation ul li.current-menu-item ul.sub-menu li.current-menu-item a, .main-navigation ul li.current-menu-parent ul.sub-menu li.current-menu-item a, .main-navigation ul li.current_page_ancestor ul.sub-menu li.current-menu-item a {
+    text-decoration: underline; }
+
+.main-navigation ul li ul li.current-menu-item a {
+  background-color: #76b72a;
+  color: white;
+  text-decoration: underline; }
+
+.main-navigation li.menu-item-has-children > a::after {
+  background-color: #76b72a;
+  color: white; }
+
+.main-navigation ul ul.sub-menu a {
+  background-color: #76b72a;
+  color: white; }
+
+.main-navigation a:hover {
+  background-color: #76b72a;
+  color: white; }
+
+#site-navigation.main-small-navigation a {
+   color: #76b72a; }
+
+#site-navigation.main-small-navigation ul li.menu-item:hover > a {
+  color: white;
+  background-color: #76b72a; }
+#site-navigation.main-small-navigation ul li.menu-item a {
+  color: #76b72a; }
+  #site-navigation.main-small-navigation ul li.menu-item a:hover {
+    color: white;
+    background-color: #76b72a; }
+#site-navigation.main-small-navigation ul li.menu-item ul.sub-menu li a {
+  color: black; }
+#site-navigation.main-small-navigation ul li.menu-item ul.sub-menu li.current-menu-item a {
+  text-decoration: underline; }
+#site-navigation.main-small-navigation ul li.menu-item.current-menu-item a, #site-navigation.main-small-navigation ul li.menu-item.current_page_item a {
+  background-color: #76b72a;
+  color: white;
+  text-decoration: underline; }
+  #site-navigation.main-small-navigation ul li.menu-item.current-menu-item a ul.sub-menu li a, #site-navigation.main-small-navigation ul li.menu-item.current_page_item a ul.sub-menu li a {
+     text-decoration: none; }
+  #site-navigation.main-small-navigation ul li.menu-item.current-menu-item a ul.sub-menu li.current-menu-item a, #site-navigation.main-small-navigation ul li.menu-item.current_page_item a ul.sub-menu li.current-menu-item a {
+    text-decoration: underline; }
+#site-navigation.main-small-navigation ul li.menu-item.current-menu-item ul.sub-menu a {
+  background-color: white;
+  color: black; }
