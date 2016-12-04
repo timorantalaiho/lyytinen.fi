@@ -1,8 +1,34 @@
+/*
+Welcome to Custom CSS!
+
+To learn how this works, see http://wp.me/PEmnE-Bt
+*/
 .header-wrap {
-	background-color: #8bc654;
-	color: white;	
+	background-color: #76b72a;
+	color: white;
+}
+
+.main-navigation ul li.current-menu-item {
+		background-color: #76b72a;
+}
+
+.main-navigation ul li.current-menu-item a {
+			background-color: #76b72a;
+		color: #5eff4d;
+	  font-weight: normal;
 }
 
 .menu-item a {
-	color: #5eff45;
+	/*color: #5eff45;*/
+	color: white;
+}
+
+.menu-item a.&hover {
+	color:white;
+}
+
+.site-title {
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
 }
