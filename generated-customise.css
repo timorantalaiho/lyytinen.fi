@@ -9,14 +9,26 @@ To learn how this works, see http://wp.me/PEmnE-Bt
   color: white;
   padding: 0;
   border: 0; }
+  .header-wrap a.site-logo-link {
+    position: absolute;
+    right: 0;
+    padding: 14px 0 20px 10px; }
+  .header-wrap .search-form-top {
+    margin-right: -20px; }
+
+.header-search-icon {
+  right: -20px; }
 
 .site-title {
+  padding-top: 14px;
   font-size: 28px;
   font-weight: bold;
   text-transform: uppercase; }
 
-.main-navigation .menu-item a {
-  color: white; }
+.main-navigation {
+  margin-right: 220px; }
+  .main-navigation .menu-item a {
+    color: white; }
 
 .main-navigation ul li.current-menu-item, .main-navigation ul li.current-menu-parent, .main-navigation ul li.current_page_ancestor {
   background-color: #76b72a; }

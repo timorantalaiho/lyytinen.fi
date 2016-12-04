@@ -6,11 +6,20 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 
 $vihreat-green: #76b72a;
 
-.header-wrap { background-color: $vihreat-green; color: white; padding: 0; border: 0; }
 
-.site-title { font-size: 28px; font-weight: bold; text-transform: uppercase; }
+.header-wrap { background-color: $vihreat-green; color: white; padding: 0; border: 0;
+  a.site-logo-link { position: absolute; right: 0; padding: 14px 0 20px 10px; }
+  .search-form-top { margin-right: -20px; }
+}
 
-.main-navigation .menu-item a { color: white; }
+.header-search-icon { right: -20px; }
+
+.site-title { padding-top: 14px; font-size: 28px; font-weight: bold; text-transform: uppercase; }
+
+.main-navigation {
+  margin-right: 220px;
+  .menu-item a { color: white; }
+}
 
 .main-navigation ul li.current-menu-item, .main-navigation ul li.current-menu-parent , .main-navigation ul li.current_page_ancestor {
   background-color: $vihreat-green;
@@ -51,5 +60,4 @@ $vihreat-green: #76b72a;
   }
   &.current-menu-item ul.sub-menu a { background-color: white; color: black; }
 }
-
 
