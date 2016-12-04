@@ -10,7 +10,6 @@ $vihreat-green: #76b72a;
 @media screen and (pointer: coarse) {
   .menu-toggle, .main-navigation.toggled .nav-menu { display: block; top: 0; }
   #site-navigation.main-navigation .menu-menu-container { display: none; }
-  #site-navigation.main-navigation .menu-toggle { top: 0; }
 }
 
 @media screen and (min-width: 768px) {
@@ -36,6 +35,10 @@ $vihreat-green: #76b72a;
 
 @media screen and (min-width: 561px) and (max-width: 767px) {
   .header-wrap a.site-logo-link { display: inline-block; padding-top: 12px; }
+}
+
+@media screen and (min-width: 561px) and (pointer: coarse) {
+  .site-header .menu-toggle { top: 0; }
 }
 
 .header-wrap { background-color: $vihreat-green; color: white; padding: 0; border: 0; }
