@@ -13,6 +13,7 @@ $vihreat-green: #76b72a;
 }
 
 @media screen and (min-width: 768px) {
+  .inner-wrap { max-width: 90%; }
   .header-wrap {
     a.site-logo-link { position: absolute; right: 0; padding: 14px 0 20px 10px; }
     .search-form-top { margin-right: -20px; }
