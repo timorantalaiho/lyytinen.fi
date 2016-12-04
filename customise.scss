@@ -6,18 +6,22 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 
 $vihreat-green: #76b72a;
 
-
-.header-wrap { background-color: $vihreat-green; color: white; padding: 0; border: 0;
-  a.site-logo-link { position: absolute; right: 0; padding: 14px 0 20px 10px; }
-  .search-form-top { margin-right: -20px; }
+@media screen and (min-width: 768px) {
+  .header-wrap {
+    a.site-logo-link { position: absolute; right: 0; padding: 14px 0 20px 10px; }
+    .search-form-top { margin-right: -20px; }
+  }
+  .header-search-icon { right: -20px; }
+  .main-navigation {
+    margin-right: 220px;
+  }
 }
 
-.header-search-icon { right: -20px; }
+.header-wrap { background-color: $vihreat-green; color: white; padding: 0; border: 0; }
 
 .site-title { padding-top: 14px; font-size: 28px; font-weight: bold; text-transform: uppercase; }
 
 .main-navigation {
-  margin-right: 220px;
   .menu-item a { color: white; }
 }
 

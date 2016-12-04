@@ -4,11 +4,7 @@ Welcome to Custom CSS!
 
 To learn how this works, see http://wp.me/PEmnE-Bt
 */
-.header-wrap {
-  background-color: #76b72a;
-  color: white;
-  padding: 0;
-  border: 0; }
+@media screen and (min-width: 768px) {
   .header-wrap a.site-logo-link {
     position: absolute;
     right: 0;
@@ -16,8 +12,16 @@ To learn how this works, see http://wp.me/PEmnE-Bt
   .header-wrap .search-form-top {
     margin-right: -20px; }
 
-.header-search-icon {
-  right: -20px; }
+  .header-search-icon {
+    right: -20px; }
+
+  .main-navigation {
+    margin-right: 220px; } }
+.header-wrap {
+  background-color: #76b72a;
+  color: white;
+  padding: 0;
+  border: 0; }
 
 .site-title {
   padding-top: 14px;
@@ -25,10 +29,8 @@ To learn how this works, see http://wp.me/PEmnE-Bt
   font-weight: bold;
   text-transform: uppercase; }
 
-.main-navigation {
-  margin-right: 220px; }
-  .main-navigation .menu-item a {
-    color: white; }
+.main-navigation .menu-item a {
+  color: white; }
 
 .main-navigation ul li.current-menu-item, .main-navigation ul li.current-menu-parent, .main-navigation ul li.current_page_ancestor {
   background-color: #76b72a; }
