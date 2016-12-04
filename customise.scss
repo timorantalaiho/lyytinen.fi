@@ -12,7 +12,7 @@ $vihreat-green: #76b72a;
   #site-navigation.main-navigation .menu-menu-container { display: none; }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .inner-wrap { max-width: 90%; }
   .header-wrap {
     a.site-logo-link { position: absolute; right: 0; padding: 14px 0 20px 10px; }
@@ -24,7 +24,7 @@ $vihreat-green: #76b72a;
   }
 }
 
-@media screen and (min-width: 768px) and (pointer: coarse) {
+@media screen and (min-width: 769px) and (pointer: coarse) {
   .header-wrap {
     a.site-logo-link { position: relative; display: inline-block; padding: 0;
       img { padding-top: 3px; }
@@ -34,7 +34,7 @@ $vihreat-green: #76b72a;
   }
 }
 
-@media screen and (min-width: 561px) and (max-width: 767px) {
+@media screen and (min-width: 561px) and (max-width: 768px) {
   .header-wrap a.site-logo-link { display: inline-block; padding-top: 12px; }
 }
 
